@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.PlayerGUIController">
+    <children>
+        <Button fx:id="btPlay" layoutX="53.0" layoutY="343.0" mnemonicParsing="false" onAction="#onPlayClick" prefHeight="32.0" prefWidth="41.0" text="&gt;" />
+        <Slider fx:id="slideTime" layoutX="146.0" layoutY="352.0" prefHeight="14.0" prefWidth="356.0" />
+        <Slider fx:id="slideVolume" layoutX="519.0" layoutY="352.0" prefHeight="14.0" prefWidth="74.0" />
+        <Label fx:id="lbTimeline" layoutX="432.0" layoutY="363.0" prefHeight="25.0" prefWidth="68.0" text="00:00/00:00" />
+        <ListView fx:id="lvListSong" layoutX="35.0" layoutY="14.0" prefHeight="287.0" prefWidth="531.0" />
+        <Button fx:id="btOpen" layoutX="533.0" layoutY="301.0" mnemonicParsing="false" onAction="#onOpenFile" prefHeight="25.0" prefWidth="33.0" text="Open" />
+        <Label fx:id="lbNameSong" layoutX="94.0" layoutY="305.0" prefHeight="25.0" prefWidth="417.0" />
+        <Label layoutX="524.0" layoutY="367.0" text="Vol" />
+        <Button fx:id="btPrev" layoutX="9.0" layoutY="347.0" mnemonicParsing="false" onAction="#onPrevClick" prefHeight="25.0" prefWidth="33.0" text="|&lt;" />
+        <Button fx:id="btNext" layoutX="105.0" layoutY="347.0" mnemonicParsing="false" onAction="#onNextClick" prefHeight="25.0" prefWidth="33.0" text="&gt;|" />
+    </children>
+</AnchorPane>

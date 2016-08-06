@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="182.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ClientGUIController">
+   <children>
+      <Label fx:id="lbNameSong" layoutX="32.0" layoutY="64.0" prefHeight="33.0" prefWidth="289.0" text="Label" />
+      <Button fx:id="btPrev" layoutX="54.0" layoutY="138.0" mnemonicParsing="false" onAction="#onPrevClick" text="Prev" />
+      <Button fx:id="btPlay" layoutX="144.0" layoutY="134.0" mnemonicParsing="false" onAction="#onPlayClick" prefHeight="33.0" prefWidth="52.0" text="Play" />
+      <Button fx:id="btNext" layoutX="256.0" layoutY="138.0" mnemonicParsing="false" onAction="#onNextClick" text="next" />
+   </children>
+</AnchorPane>
